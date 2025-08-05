@@ -5,6 +5,7 @@ fun main() {
     printName(name = "Philip")
 //    printName() will not compile
     noParameter()
+    noParameterUnit()
     println(returnString())
     println(parametersAndReturn(2, 5))
     println(shortFunction(5, 7))
