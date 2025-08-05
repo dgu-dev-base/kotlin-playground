@@ -1,4 +1,4 @@
-package controlflow
+package fundamentals.controlflow
 
 fun main() {
     for(i in 1..5) {

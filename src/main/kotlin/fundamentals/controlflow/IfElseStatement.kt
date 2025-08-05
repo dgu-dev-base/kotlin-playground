@@ -1,4 +1,4 @@
-package controlflow
+package fundamentals.controlflow
 
 fun main(){
    val a = true
