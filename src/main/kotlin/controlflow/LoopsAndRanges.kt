@@ -31,6 +31,10 @@ fun forLoop() {
         print(i)
     }
     println()
+
+    for(i in 1..20) {
+        print(i)
+    }
 }
 
 fun whileLoop() {

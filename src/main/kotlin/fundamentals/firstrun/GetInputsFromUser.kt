@@ -1,4 +1,4 @@
-package basic
+package fundamentals.firstrun
 
 fun main() {
     print("Enter your name:")
