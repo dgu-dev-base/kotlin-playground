@@ -1,4 +1,4 @@
-package functions
+package fundamentals.functions
 
 fun main() {
     printName("John")

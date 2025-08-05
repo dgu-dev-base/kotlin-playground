@@ -1,6 +1,6 @@
 package classes
 
-import functions.printPerson
+import fundamentals.functions.printPerson
 
 data class Course(
     val id: Int,
