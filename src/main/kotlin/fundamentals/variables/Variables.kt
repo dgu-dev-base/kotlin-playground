@@ -14,7 +14,7 @@ fun main() {
     //y = 10 // commented due to will not be compiled
     println(y)
 
-//    const val z = 100 // Will not compile, not local variable
+//    const val z = 100 // Will not compile, not local variable.
     println(z)
 
 }
