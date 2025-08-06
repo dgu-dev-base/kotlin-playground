@@ -4,6 +4,7 @@ class SimpleClass {
     fun action() {
         println("Person Walks")
     }
+
 }
 
 fun main() {
