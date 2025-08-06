@@ -1,21 +1,14 @@
 package fundamentals.oop.classes
 
-class ClassWithSecondConstructor {
-    var name: String = ""
+class ClassWithSecondConstructor(val name: String) {
     var age: Int = 0
     var email: String = ""
 
-    constructor() {
-
-    }
-
-    constructor(name: String, age: Int) {
-        this.name = name
+    constructor(name: String, age: Int): this(name) {
         this.age = age
     }
 
-    constructor(name: String, age: Int, email: String) {
-        this.name = name
+    constructor(name: String, age: Int, email: String): this(name) {
         this.age = age
         this.email = email
     }
@@ -26,7 +19,7 @@ class ClassWithSecondConstructor {
 }
 
 fun main() {
-    val class1 = ClassWithSecondConstructor()
+    val class1 = ClassWithSecondConstructor("Michael")
     class1.printParameters()
     val class2 = ClassWithSecondConstructor("John", 32)
     class2.printParameters()
