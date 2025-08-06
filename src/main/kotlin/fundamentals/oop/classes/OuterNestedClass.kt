@@ -1,6 +1,6 @@
 package fundamentals.oop.classes
 
-class OuterClass {
+class OuterNestedClass {
 
     val message = "Outer class"
 
@@ -13,6 +13,6 @@ class OuterClass {
 }
 
 fun main() {
-    val nested = OuterClass.Nested()
+    val nested = OuterNestedClass.Nested()
     nested.greet()
 }
